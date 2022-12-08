@@ -1,7 +1,7 @@
 import { useParams } from "react-router"; //Top of App.js
 //Rest of imports here...
     
-const Word = (props) => { 
+const Word = () => { 
   const { word } = useParams(); // matches our :city in our Routes
     
     return (

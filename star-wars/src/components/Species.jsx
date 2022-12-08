@@ -5,7 +5,7 @@ const Species = (props) => {
     let {details} = props;
 
     return (
-        <div>
+        <div className='text-red-500 text-2xl'>
             <h1>{details.name}</h1>
             <p>Classification: {details.classification}</p>
             <p>Designation: {details.designation}</p>
